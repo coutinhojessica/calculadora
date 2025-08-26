@@ -1,68 +1,71 @@
-*{
-    font-family: sans-serif;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0;
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
 }
 
-body{
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(45deg, rgb(94, 190, 94), purple);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(170, 175, 170);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.fundo{
-    color:#fff;
+.fundo {
+  color: #fff;
 }
 
-.calculdora{
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 15px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.calculdora {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.tabela tr td button{
-    border: none;
-    border-radius: 4px;
-    width: 50px;
-    height: 50px;
-    font-size: 25px;
-    cursor: pointer;
-    background-color: rgb(31, 31, 31);
-    color: #fff;
-    margin: 3px;
+.tabela tr td button {
+  border: none;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgb(31, 31, 31);
+  color: #fff;
+  margin: 3px;
 }
 
-.tabela tr td button:hover{
-    background-color: black;
+.tabela tr td button:hover {
+  background-color: black;
 }
 
-.tabela tr td .estiloBtnRows{
-    height: 106px;
+.tabela tr td .estiloBtnRows {
+  height: 106px;
 }
 
-.tabela tr td .estiloBtnCols{
-    width: 106px;
+.tabela tr td .estiloBtnCols {
+  width: 106px;
 }
 
-#resultado{
-    width: 207px;
-    height: 30px;
-    color: black;
-    padding: 5px;
-    margin: 5px;
-    background-color: #fff;
-    font-size: 25px;
-    text-align: right;
+#resultado {
+  width: 207px;
+  height: 30px;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+  background-color: #fff;
+  font-size: 25px;
+  text-align: right;
+  display: inline-flex;
+  justify-content: end;
+  align-items: center;
 }
